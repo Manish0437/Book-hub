@@ -1,0 +1,147 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+.login-website-logo-mobile-image {
+  width: 216px;
+  height: 216px;
+  border-radius: 50%;
+}
+@media screen and (min-width: 992px) {
+  .login-website-logo-mobile-image {
+    display: none;
+  }
+}
+
+.login-image {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .login-image {
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+  }
+}
+
+.form-main-container {
+  width: 100%;
+  background-color: #f8fafc;
+}
+
+@media screen and (min-width: 992px) {
+  .form-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #f8fafc;
+    height: 100vh;
+  }
+}
+
+.login-website-logo-desktop-image {
+  width: 141px;
+  height: 48px;
+}
+@media screen and (max-width: 991px) {
+  .login-image {
+    display: none;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    width: 500px;
+    height: 484px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 64px 48px 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  font-family: 'Roboto';
+  font-weight: 600;
+  line-height: 19.36px;
+  color: #5a7184;
+}
+
+.input-field {
+  font-size: 14px;
+  height: 56px;
+  width: 360px;
+  border: 1px solid #c3cad9;
+  color: #183b56;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .input-field {
+    width: 100%;
+    height: 56px;
+  }
+}
+
+.login-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0284c7;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-message {
+  align-self: flex-start;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 3px;
+  margin-bottom: 0px;
+  color: #EF4444;
+  line-height: 16px;
+}
