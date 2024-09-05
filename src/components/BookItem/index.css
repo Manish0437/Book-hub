@@ -98,6 +98,6 @@
   opacity: 0.5;
 }
 .favorite-icon-selected {
-  margin-left: 10px;
+  /* margin-left: 10px; */
   color: red;
 }

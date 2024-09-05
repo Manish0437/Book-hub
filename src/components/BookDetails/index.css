@@ -44,7 +44,7 @@
 .book-title {
   color: #334155;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 0px;
   text-align: left;
@@ -118,6 +118,7 @@
   margin-top: 0px;
   justify-content: space-between;
   padding-top: 0px;
+  width: 90%;
 }
 .book-details-rating-container {
   display: flex;

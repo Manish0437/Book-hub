@@ -98,6 +98,12 @@ class Bookshelves extends Component {
     this.setState({searchInput: event.target.value})
   }
 
+  onKeydown = event => {
+    if (event.key === 'Enter') {
+      this.onSearchBooks()
+    }
+  }
+
   onSearchBooks = () => {
     this.setState(
       prevState => ({
@@ -235,6 +241,7 @@ class Bookshelves extends Component {
                   type="search"
                   onChange={this.onChangeInput}
                   value={searchInput}
+                  onKeyDown={this.onKeydown}
                 />
                 <button
                   className="search-btn"

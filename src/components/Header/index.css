@@ -18,6 +18,7 @@
 .header-website-logo {
   width: 133px;
   height: 41px;
+  margin-left: 40px;
 }
 
 .tabs-container {
@@ -64,10 +65,12 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 15px;
   }
   .header-nav-bar-website-logo {
     width: 92px;
     height: 24px;
+    margin-left: 12px;
   }
   .menu-icon,
   .cross-icon-btn {
